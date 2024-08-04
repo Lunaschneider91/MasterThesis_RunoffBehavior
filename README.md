@@ -1,38 +1,34 @@
 # MasterThesis_RunoffBehavior
 
 ## Introduction
-This repository contains the datasets and code used for my Master's thesis on the runoff behavior in 122 (40?) catchments in Rheinland-Pfalz, Germany. 
-### The study focuses on improving the understanding and prediction of runoff.... bla bla.
+This repository contains the datasets and code used for my Master's thesis on the runoff behavior in 121 catchments in Rheinland-Pfalz, Germany. 
+
+#This thesis investigates the hydrological behavior of catchments in Rhineland-Palatinate, Germany, focusing on how geology, soils, land use, and elevation influence runoff patterns. By utilizing the Delayed-Flow Index and data-driven cluster analysis, the study not only categorizes catchments but also examines the extent to which these clusters are shaped by specific landscape characteristics. This work enhances the understanding of how environmental factors shape hydrological responses through data-driven approaches, and it demonstrates new methodological perspectives for studying catchment behavior in the context of a changing climate.
 
 ## Data
-The `data` directory includes the datasets utilized in this research:
-- `runoff_data.xlsx`: Contains runoff measurements for the specified catchment areas
-- `bla_1.xlsx`
-- `bla_1.xlsx`
-- `bla_1.xlsx`
-- `bla_1.xlsx`
-- `bla_1.xlsx`
+The required data can be found in Seafile at the following link:
+[Seafile Link](https://seafile.rlp.net/d/c4500c173e754793bec8/)
+
+To make it easier to navigate and find the relevant information, here is a brief guide:
+
+In the "Daten" folder, you will find several subfolders containing the corresponding files:
+
+1_daten: This folder contains various subfolders with the relevant data.
+1_abfluss: This contains the raw data, which is sorted by measurement stations.
+2_dfi: Here you will find the results of the DFI. This includes DFIs for cluster analysis (1), for seasonal analysis (2), and for long-term analysis by decades (3).
+3_clusteranalysis: This folder contains the results of the cluster analysis related to the data in "1_dfi".
+4_geodaten: Here you will find the geodata used for calculating distributions and their comparisons (G3, G4, and G5). This folder also contains shapefiles for natural areas, a mask of Rhineland-Palatinate (based on the catchment areas), as well as the catchment areas themselves. The original file was provided by Prof. Dr. Schütz.
+5_arbeitordner: This folder contains various Excel files created as intermediate steps during the work.
 
 ## Notebooks
-The `notebooks` directory includes Jupyter Notebooks for data processing, analysis, and model implementation:
-- `preprocessing.ipynb`: Notebook for cleaning and preprocessing the dataset.
-- `analysis_geologie.ipynb`: Notebook for executing the runoff analysis.
-- `analysis_boden.ipynb`: Notebook for executing the runoff analysis.
+The notebooks available here are designed for data processing, analysis, and plot creation.
 
-## Documentation
-The `documentation` directory provides supplementary materials:
-- `thesis_document.pdf`: The full text of my Master's thesis.
-- `appendices.pdf`: Additional data, results, and methodological details.
+1_data_preprocessing.ipynb: This notebook handles data cleaning and preprocessing.
+2_distributions_statistics_plots_catchment_characteristics.ipynb: This notebook generates statistical distributions and plots related to catchment characteristics.
+3_PCA_RDA.ipynb: This notebook performs Principal Component Analysis (PCA) and Redundancy Analysis (RDA).
+4_seasonality.ipynb: This notebook focuses on analyzing seasonal patterns and trends.
+5_long_term_changes.ipynb: This notebook examines long-term changes over time.
 
-## Usage
-To run the notebooks, follow these steps:
-1. Ensure you have the necessary Python libraries installed. You can install them using:
-   ```sh
-   pip install -r requirements.txt
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.??
-https://creativecommons.org/licenses/by/4.0/?????
 
 ## Acknowledgements
 Special thanks to my advisors, Mr. Schütz and Mr. Casper, for their guidance and support.
