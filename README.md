@@ -15,15 +15,21 @@ In the "Daten" folder, you will find several subfolders containing the correspon
 
 1_daten: This folder contains various subfolders with the relevant data.
 
+
 1_abfluss: This contains the raw data, which is sorted by measurement stations.
+
 
 2_dfi: Here you will find the results of the DFI. This includes DFIs for cluster analysis (1), for seasonal analysis (2), and for long-term analysis by decades (3).
 
+
 3_clusteranalysis: This folder contains the results of the cluster analysis related to the data in "1_dfi".
+
 
 4_geodaten: Here you will find the geodata used for calculating distributions and their comparisons (G3, G4, and G5). This folder also contains shapefiles for natural areas, a mask of Rhineland-Palatinate (based on the catchment areas), as well as the catchment areas themselves. The original file was provided by Prof. Dr. Schütz.
 
+
 5_arbeitordner: This folder contains various Excel files created as intermediate steps during the work.
+
 
 ## Notebooks
 The notebooks available here are designed for data processing, analysis, and plot creation.
