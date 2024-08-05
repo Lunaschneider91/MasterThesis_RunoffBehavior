@@ -35,10 +35,15 @@ In the "Daten" folder, you will find several subfolders containing the correspon
 The notebooks available here are designed for data processing, analysis, and plot creation.
 
 1_data_preprocessing.ipynb: This notebook handles data cleaning and preprocessing.
+
 2_distributions_statistics_plots_catchment_characteristics.ipynb: This notebook generates statistical distributions and plots related to catchment characteristics.
+
 3_PCA_RDA.ipynb: This notebook performs Principal Component Analysis (PCA) and Redundancy Analysis (RDA).
+
 4_seasonality.ipynb: This notebook focuses on analyzing seasonal patterns and trends.
+
 5_long_term_changes.ipynb: This notebook examines long-term changes over time.
+
 
 
 ## Acknowledgements
